@@ -27,12 +27,7 @@ CREATE TABLE IF NOT EXISTS `cadastro` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci AUTO_INCREMENT=36 ;
 
 INSERT INTO `cadastro` (`idcadastro`, `login`, `senha`, `email`, `bicho`, `bicho_data`, `bicho_hora`, `nome`, `qtd_acesso`) VALUES
-(1, 'tcccreatif', 'tcc2012', 'marianafonseca28@hotmail.com', 2, '0000-00-00', '00:00:00', 'TCC - PETCOOL', 0),
-(4, 'fefe', 'cocodegalo', 'nandapinheiro_l@hotmail.com', 0, '2012-09-28', '13:20:29', 'fernanda', 26),
-(33, 'Mini', 'mini', 'mini.camboim@hotmail.com', 2, '0000-00-00', '00:00:00', 'Thay', 1),
-(32, '123', '123', '123', 0, '0000-00-00', '00:00:00', '123', 2),
-(34, 'Danilo', '123456', 'inf_danilo2@hotmail.com', 0, '0000-00-00', '00:00:00', 'Danilo Pereira Sá', 1),
-(35, 'japa', '1234567', 'email do japa', 0, '0000-00-00', '00:00:00', 'japones viado', 0);
+(1, 'petcool', 'petcool', 'gustavoamorim02@hotmail.com', 2, '0000-00-00', '00:00:00', 'PETCOOL', 0);
 
 CREATE TABLE IF NOT EXISTS `historico_acesso` (
   `id_hist_acess` int(11) NOT NULL AUTO_INCREMENT,
